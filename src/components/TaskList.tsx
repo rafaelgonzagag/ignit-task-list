@@ -42,12 +42,12 @@ export function TaskList() {
   return (
     <section className="task-list container">
       <header>
-        <h2>Minhas Tarefas</h2>
+        <h2>Minhas tasks</h2>
 
         <div className="input-group">
           <input 
             type="text" 
-            placeholder="Adicionar nova tarefa" 
+            placeholder="Adicionar novo todo" 
             onChange={(e) => setNewTaskTitle(e.target.value)}
             value={newTaskTitle}
           />
